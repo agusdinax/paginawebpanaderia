@@ -1,0 +1,244 @@
+<!-------------WEB I - TRABAJO PRACTICO ESPECIAL 3------------------>
+<!-------------TOMAS LARDAPIDE Y AGUSTINA DI NATALE------------------>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="panadería, tandil, desayuno">
+    <meta name="description" content="Panadería y confitería, menú del día, tartas, empanadas y más... Hace tu pedido en PEDIDOSYA">
+    <meta name="author" content="Tomás Lardapide y Agustina Di Natale">
+    <title>Panadería 9 de Julio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="images/logo.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-danger">
+<!-------------HEADER y NAV------------------>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-danger" href="#">Panadería 9 de Julio<i class="fas fa-bread-slice text-danger"></i></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active mx-auto ">
+                        <a class="nav-link text-danger hovernav font-weight-bold" href="#" target="_blank">Home</a></li>
+                    <li class="nav-item hovernav mx-auto">
+                        <a class="nav-link text-danger font-weight-bold" href="desayuno.html">Desayunos</a></li>
+                    <li class="nav-item hovernav mx-auto ">
+                        <a class="nav-link text-danger font-weight-bold" href="menu.html">Menú del Día</a></li>
+                    <li class="nav-item hovernav mx-auto">
+                        <a class="nav-link text-danger font-weight-bold" href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+<!-------------DIV SLIDES CARRUSEL-------------------> 
+<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--INDICADORES CARRUSEL-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+    <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner mt-2" role="listbox">
+    <!--PRIMERA SLIDE-->
+    <div class="carousel-item active mt-5">
+      <div class="view" style="background-image: url('images/fondomenu.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+          <!-- CONTENIDO PRIMERA SLIDE -->
+          <div class="text-center white-text mx-5 wow fadeIn">
+            <h1 class="mb-4 mt-4">
+              <strong>Conocé nuestro Menú Semanal</strong>
+            </h1>
+            <p class="mb-4 d-none d-md-block">
+              <strong>👉Te presentamos nuestro menú semanal. Hace tu encargue con anticipación y podemos adecuarnos a tus gustos y/o dieta.</strong>
+            </p>
+            <button type="button" href="menu.html" class="btn btn-danger "><i href="menu.html" class="fas fa-utensils"></i>Conocé nuestras opciones!
+              <i class="fas fa-utensils"></i></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SEGUNDA SLIDE-->
+    <div class="carousel-item">
+      <div class="view" style="background-image: url('images/bizcochos.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+          <!--CONTENIDO SEGUNDA SLIDE -->
+          <div class="text-center white-text mx-5 wow fadeIn mt-5">
+            <h1 class="mb-4 mt-4">
+              <strong>Bizcochos salados</strong>
+            </h1>
+            <p class="mb-4 d-none d-md-block">
+              <strong>Conocé nuestra variedad y opciones de bizocochos salados y dulces para acompañar tu mate de la tarde.</strong>
+            </p>
+            <button type="button" target="_blank" href="https://www.pedidosya.com.ar/restaurantes/tandil/confiteria-y-panaderia--9-de-julio--menu"class="btn btn-danger "><i class="fas fa-motorcycle"></i>Hace click y pedilos ya!
+              <i class="fas fa-motorcycle"></i></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---TERCERA SLIDE---->
+    <div class="carousel-item">
+      <div class="view" style="background-image: url('images/postres3.JPG'); background-repeat: no-repeat; background-size: cover;">
+        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+         <!--CONTENIDO TERCERA SLIDE -->
+          <div class="text-center white-text mx-5 wow fadeIn mt-5">
+            <h1 class="mb-4 mt-4">
+            <strong>Postres 9 de Julio</strong></h1>
+            <p class="mb-4 d-none d-md-block">
+              <strong>Mira nuestra variedad de postres y masitas y hace tu pedido desde la aplicación de pedidos ya!! </strong>
+            </p>
+            <button type="button" target="_blank" href="https://www.pedidosya.com.ar/restaurantes/tandil/confiteria-y-panaderia--9-de-julio--menu"class="btn btn-danger "><i class="fas fa-motorcycle"></i>Hace click y pedilos ya!
+              <i class="fas fa-motorcycle"></i></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--CONTROLES CARRUSEL-->
+  <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>  
+<!-------------SECTION BANNER------------------->
+    <section class="col-sm-12 text-center bg-danger mt-3">
+        <div class="container-fluid">
+            <h2 class="main--title text-light "> <i class="fas fa-utensils text-light"></i> Bienvenidos a Panadería 9 de Julio <i class="fas fa-utensils text-light"></i></h2>
+            <p class="main--txt text-light p-5">El pan es un alimento ancestral que se sigue consumiendo casi en la totalidad de hogares en España a día de hoy. En estos el pan es un alimento de consumo y compra diarios. Sin duda alguna una interesante oportunidad de negocio. Frente a la oferta de diversos  tipos de pan en España prefabricados y las opciones mediocres de supermercado, la gran baza para triunfar con éxito en este mercado es apostar por la calidad y el servicio a través de una panadería artesanal, un concepto bakery café y un servicio espléndido</p>
+        </div>
+    </section>
+<!------------- SECTION CARTAS INICIO------------------>
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/desayuno.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-danger font-weight-bold text-center">Desayunos</h5>
+              <p class="card-text text-center">Sorprende a tu ser querido en su día con nuestros desayunos artesanales!</p>
+              <a href="desayuno.html" class="btn btn-danger d-block align-center">Conocé nuestras opciones!</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/fotomenu.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-danger font-weight-bold text-center">Menú del día</h5>
+              <p class="card-text text-center">👉Te presentamos nuestro menú semanal. Hace tu encargue con anticipación y podemos adecuarnos a tus gustos y/o dieta.</p>
+              <a href="menu.html" class="btn btn-danger d-block align-center">Mira el menu de esta semana</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/masas.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-danger font-weight-bold text-center">Masas finas</h5>
+              <p class="card-text text-center">Mira nuestra variedad de postres y masitas y hace tu pedido desde la aplicación de pedidos ya!!</p>
+              <a href="menu.html" class="btn btn-danger d-block align-center">Pedí aquí</a>
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+<!-------------FOOTER------------------>
+<footer class="bg-light mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 footer-column mt-2">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title text-danger font-weight-bold">PRODUCTOS</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="desayuno.html">Desayunos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  hovernav text-dark" href="menu.html">Menú del día</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#">Masas finas</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer-column mt-2">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title text-danger font-weight-bold">Nosotros</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#">Sobre nosotros</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer-column mt-2">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title text-danger font-weight-bold">Redes sociales</span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link hovernav text-dark"><i class="fas fa-phone"></i> 4448763</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#"><i class="fab fa-whatsapp"></i> 2494285119</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#"><i class="fas fa-map-marker-alt"></i> 9 de Julio 1245</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#"><i class="fas fa-map-marked-alt"></i> Tandil-Buenos Aires, Argentina</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4 box">
+      <ul class="list-inline social-buttons">
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/9dejuliopanaderia/">
+          <i  class="fab fa-instagram text-danger"></i>
+        </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com/9dejuliopanaderia">
+          <i class="fab fa-facebook-f text-danger"></i>
+        </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/agusdinax/">
+          <i class="fab fa-linkedin-in text-danger"></i>
+        </a>
+        </li>
+      </ul>
+    </div>
+    <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+      <div class="col-md-5 box text-center">
+        <span class="copyright quick-links text-center">Copyright &copy; Tomas Lardapide y Agustina Di Natale 2021</script>
+        </span>
+      </div>
+    </div>
+</footer>
+<!-------------SCRIPT-BOOTSTRAP------------------>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

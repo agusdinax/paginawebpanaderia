@@ -1,0 +1,184 @@
+<!-------------WEB I - TRABAJO PRACTICO ESPECIAL 2------------------>
+<!-------------TOMAS LARDAPIDE Y AGUSTINA DI NATALE------------------>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="panadería, tandil, desayuno">
+    <meta name="description" content="Panadería y confitería, menú del día, tartas, empanadas y más... Hace tu pedido en PEDIDOSYA">
+    <meta name="author" content="Tomás Lardapide y Agustina Di Natale">
+    <title>Contacto - Panadería 9 de Julio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="images/logo.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-danger">
+<!-------------HEADER y NAV------------------>
+<header>
+  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+      <div class="container">
+          <a class="navbar-brand text-danger" href="#">Panadería 9 de Julio<i class="fas fa-bread-slice text-danger"></i></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto ">
+              <li class="nav-item active mx-auto ">
+                  <a class="nav-link text-danger hovernav font-weight-bold" href="index.html" target="_blank">Home</a></li>
+              <li class="nav-item hovernav mx-auto">
+                  <a class="nav-link text-danger font-weight-bold" href="desayuno.html">Desayunos</a></li>
+              <li class="nav-item hovernav mx-auto ">
+                  <a class="nav-link text-danger font-weight-bold" href="menu.html">Menú del Día</a></li>
+              <li class="nav-item hovernav mx-auto">
+                  <a class="nav-link text-danger font-weight-bold" href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+</header>
+ <!-------------SECTION-FORM------------------>
+ <section class="container cont-form text-light mt-5 rounded text-center">
+  <div class="row justify-content-center">
+      <div class="col-md-4 my-4">
+          <h1>CONTACTANOS!</h1>
+      </div>
+  </div>
+  <div class="row pb-5">
+     <div class="col-lg-5 ">
+        <!-------------FORM------------------>
+         <form action="#!" id="form"class="bg-light rounded p-2 ml-lg-4 p-md-4">
+             <input type="text" class="form-control mb-2 " id="name" placeholder="Nombre" name="name" required>
+             <input type="text" class="form-control mb-2 " id="apellido" placeholder="Apellido" name="apellido" required>
+             <input type="number" class="form-control mb-2 " id="telefono" placeholder="Numero de Telefono" name="telefono" required>
+             <input type="email" name="email" class="form-control mb-2" id="email" placeholder="Email" required>
+             <textarea class="form-control mb-4" id="message" placeholder="Deje su consulta" name="texto" rows="3"></textarea>
+             <p class="text-dark">Inserte el siguiente captcha:</p>
+             <!-------------IMPRESION CAPTCHA RANDOM------------------>
+            <p id="num-captcha" class="num-captcha text-dark"></p>
+            <input type="text" id="captcha" class="form-control mb-2 captcha" placeholder="Ingrese Captcha" required></li>
+            <input class="btn btn-danger btn-block" type="submit" value="Enviar" id="enviarform" class="submit">
+            <div class="alert d-none" id="correcto" role="alert"></div>
+         </form>
+         <!-----------FIN--FORM------------------>
+    </div>
+<!-------------SECTION-FORM-INFORMACION------------------>
+    <div class="col-lg-6 text-center text-lg-left pl-5">
+          <h3 class="mb-1 mt-5 mt-lg-0"><i class="fas fa-map-marked-alt"></i> Dirección</h3>
+          <p class="mb-0">9 de Julio 1245</p>
+          <p class="mb-0">Tandil, Buenos Aires</p>
+          <p>Argentina</p>
+          <h3 class="mb-1"><i class="fas fa-phone"></i> Telefono</h3>
+          <p>2494448763</p>
+          <h3 class="mb-1"><i class="fab fa-facebook-f"></i> Redes Sociales</h3>
+          <div class="col-md-4 box">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/9dejuliopanaderia/">
+                <i  class="fab fa-instagram text-danger"></i>
+              </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/9dejuliopanaderia">
+                <i class="fab fa-facebook-f text-danger"></i>
+              </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/agusdinax/">
+                <i class="fab fa-linkedin-in text-danger"></i>
+              </a>
+              </li>
+            </ul>
+          </div>
+      </div>
+  </div>
+</section>
+<!-------------FOOTER------------------>
+<footer class="bg-light mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 footer-column mt-2">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title text-danger font-weight-bold">PRODUCTOS</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="desayuno.html">Desayunos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  hovernav text-dark" href="menu.html">Menú del día</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#">Masas finas</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer-column mt-2">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title text-danger font-weight-bold">Nosotros</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#">Sobre nosotros</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer-column mt-2">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title text-danger font-weight-bold">Redes sociales</span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link hovernav text-dark"><i class="fas fa-phone"></i> 4448763</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#"><i class="fab fa-whatsapp"></i> 2494285119</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#"><i class="fas fa-map-marker-alt"></i> 9 de Julio 1245</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hovernav text-dark" href="#"><i class="fas fa-map-marked-alt"></i> Tandil-Buenos Aires, Argentina</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4 box">
+      <ul class="list-inline social-buttons">
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/9dejuliopanaderia/">
+          <i  class="fab fa-instagram text-danger"></i>
+        </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com/9dejuliopanaderia">
+          <i class="fab fa-facebook-f text-danger"></i>
+        </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/agusdinax/">
+          <i class="fab fa-linkedin-in text-danger"></i>
+        </a>
+        </li>
+      </ul>
+    </div>
+    <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+      <div class="col-md-5 box text-center">
+        <span class="copyright quick-links text-center">Copyright &copy; Tomas Lardapide y Agustina Di Natale 2021</script>
+        </span>
+      </div>
+    </div>
+</footer>
+<!-------------SCRIPT-CAPTCHA------------------>
+<script type="text/javascript" src="js/captcha.js"></script>
+<!-------------SCRIPT-BOOTSTRAP------------------>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
